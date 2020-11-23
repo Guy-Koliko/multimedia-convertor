@@ -1,0 +1,36 @@
+.container{
+    background-color: #ffffff;
+    height: 400px;
+    border-radius: 0 0 10px 10px;
+    border: 1px solid #726e6e;
+}
+
+#shapes{
+    width:100px;
+    height: 10px;
+}
+.stop{
+    background-color: red;
+}
+.start{
+    background-color: green;
+}
+
+.container-left{
+    float: left;
+}
+.container-right{
+    float: right;
+}
+#defualt-file{
+    border: 1px solid black;
+    height: 10%;
+    width: 10%;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.display-4{
+   alignment: center;
+}
