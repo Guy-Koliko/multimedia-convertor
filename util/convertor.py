@@ -7,13 +7,13 @@ import subprocess
 
 
 #this are the variables to use
-src_dir = './'
-dst_dir = './test/'
+src_dir = './raw' #this part will come from the web ui
+dst_dir = './test' #this part will come from the web ui
 #this is the main program
 
 def main():
-    ext_one = input("what is the extention of the file [mp3,mp4,avi...] ")
-    ext_two = input("what file format do you want to convert file to [mpeg,mp4 ..]")
+    ext_one = 'mp4'
+    ext_two = 'mpeg'
 
     ex_1 = '.'+ext_one
     ex_2 = '.'+ext_two
@@ -55,4 +55,5 @@ def watch_dog(ex1,ex2,dir_name='.'):
         old_stat = new_stat
         old_files = new_files
 
-main()
+def hello():
+    print("GHANA WILL BE OKAY")
